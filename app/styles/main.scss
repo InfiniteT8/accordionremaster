@@ -1,0 +1,60 @@
+ // Bourbon & Neat
+@import '../../bower_components/bourbon/dist/bourbon';
+@import '../../bower_components/neat/app/assets/stylesheets/neat';
+
+// Custom Styles
+body {
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+.hero-unit {
+  margin: 50px auto 0 auto;
+  width: 600px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  background-color: #eee;
+  background-image:url('../images/bg1.jpg');
+  border-radius: 6px;
+  padding: 60px;
+  h1 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+}
+
+.accordion p {
+  border:3px solid #F81C25; 
+  padding:5px;
+}
+
+.accordion p:nth-child(odd) {
+  background-color: #EAEAEA;
+  margin: 0px 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+  box-shadow: 0px 0px 15px 5px rgba(103, 198, 211, 0.75);
+}
+
+.accordion p:nth-child(even) {
+  background-color:#E8EFF9;
+  margin:0px 20px 0px 42px;
+  box-shadow:4px 4px 4px #535353 inset;
+  min-height:30px;
+}
+
+.thacher p {
+  -webkit-transition:width 2s;
+  position:relative;
+  right:0;
+}
+
+.thacher p:hover {
+  right:-30px;
+  padding-top:30px;
+}
