@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>accordionmaster</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="styles/vendor.css">
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script src="scripts/vendor/modernizr.js"></script>
+  </head>
+  <body>
+
+    <div class="hero-unit">
+      <div class="accordion">
+        <p class="hidden">Thacher "Pike" Le</p>
+        <p>Ghetto ipsizzle the bizzle break yo neck, yall amet, consectetizzle adipiscing break yo neck, yall. Nullizzle break yo neck, yall velizzle, nizzle volutpizzle, suscipit ghetto, gravida shizzle my nizzle crocodizzle, arcu. Pellentesque fo shizzle yo mamma. Sizzle erizzle. Ma nizzle izzle gizzle dapibus away tempizzle shizzlin dizzle. Mauris pellentesque nibh sure sheezy. Away yo things. Mofo eleifend rhoncizzle you son of a bizzle. In fo shizzle tellivizzle platea dictumst. Crunk dapibus. Curabitur tellus urna, bling bling gizzle, that's the shizzle da bomb, eleifend vitae, nunc. Phat suscipizzle. Check it out sempizzle velit sizzle purus.</p>
+
+        <p>Terrill Sanders</p>
+        <p class="hidden">Gangster past now cleaning up his act doing toothpaste commercials.</p>
+        
+        <p>Rebecca Clark</p>
+        <p class="hidden">Mofo nizzle mi go to hizzle maurizzle dizzle shiz. Shiznit mah nizzle viverra lectizzle. Yippiyo izzle enizzle et rizzle sodalizzle phat. Daahng dawg lobortizzle, doggy vitae dapibizzle funky fresh, nulla fo shizzle my nizzle bibendizzle metus, izzle phat augue dui in yo. Vivamizzle gravida lacus id ipsizzle. Vivamus arcu ghetto, fermentum sizzle amet, i'm in the shizzle izzle, cool izzle, own yo'.</p>
+
+        <p>Mr. Tim</p>
+        <p class="hidden">Creator of the new hit series, to Div or not to Div. Currently thinking of ways to make coding exciting but arduous for all.</p>
+    </div>  
+
+    <script type='text/javascript'>
+    $('.accordion p:nth-child(even)').hide();
+    $('.accordion p:nth-child(odd)').click(function(){
+      $('.accordion p:nth-child(even)').hide();
+        $(this).next().show();
+    });
+// </script>
+
+    <script src="scripts/vendor.js"></script>
+
+        <script src="scripts/main.js"></script>
+</body>
+</html>
